@@ -27,6 +27,25 @@
     
     
 }
+@media only screen and (max-width: 800px) {
+    .tab-col {
+        display: none;
+    }
+    .footer-row {
+        display: flex;
+        max-height: 50%;
+        justify-content: space-around;
+        flex-flow: column wrap;
+        align-content: start;
+    }
+    .footer-row>div {
+        width: 40%;
+    }
+    .hide-in-small-screen {
+        display: none;
+    }
+}
+
 .green-btn{
     background-color: green;
     color: white;

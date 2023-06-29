@@ -1,0 +1,160 @@
+.orange{
+    color: white;
+    background-color: orangered;
+    padding: 2px;
+    width:20%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
+.some-text{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    text-align: center;
+
+}
+.video{
+    position: absolute;
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 100%;
+    
+    
+}
+.green-btn{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    width:20%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    position: absolute;
+    top: 160%;
+    left: 40%;
+
+}
+.some-text-2{
+    position: absolute;
+    top: 150%;
+   left: 30%;
+    margin: auto;
+
+}
+
+.feature-banner{
+    position: absolute;
+    top: 180%;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.feature-banner::-webkit-scrollbar {
+    display: none;
+  }
+  .some-text-3{
+    position: absolute;
+    top: 250%;
+   left: 40%;
+    margin: auto;
+}
+.green-btn-2{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    width:20%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    position: absolute;
+    top: 260%;
+    left: 38%;
+
+}
+.background{
+    position: absolute;
+    background-image: url('IMAGES\\background-1815001_1920.png');
+    width: 100%;
+    top: 270%;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.blue-item{
+    background-color: #0b5ac9;
+    border-radius: 10px;
+    padding: 15px 0px;
+    box-shadow: 5px 5px 3px #00000055;
+}
+.grey-item{
+    margin: 1px;
+    border-radius: 10px;
+    background-color: rgb(221, 215, 215);
+    transform: translate(-20px, 0px);
+    padding: 25px 5px;
+    box-shadow: 5px 5px 3px #00000055;
+}
+
+.cards{
+    margin: 40px;
+}
+
+.orange-cart-btn{
+    color: white;
+    background-color: orangered;
+    padding: 2px;
+    text-align: center;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+}
+.card-link{
+    text-align: center;
+    color: #0b5ac9;
+}
+
+.card-text>p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-text{
+    margin: 10px 0px 10px 15px;
+}
+.bg-buttons{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 10px;;
+}
+.bg-btn{
+    padding: 5px 180px 5px 180px;
+    border-radius: 5px;
+    color: white;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-around;
+}
+.sub-btn{
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 800px){
+    .tab-col{
+        display: none;
+    }
+
+    
+}

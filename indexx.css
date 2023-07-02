@@ -1,0 +1,123 @@
+.img2{
+    width: 100%;
+}
+.diy-img{
+    width: 40%;;
+}
+.vid{
+    width: 50%;;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-around;
+}
+.sub-btn{
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+.orange{
+    color: white;
+    background-color: orangered;
+    padding: 2px;
+    width:60%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    text-align: center;
+    border: none;
+   
+}
+.some-text{
+    text-align: center;
+}
+
+.background{
+
+    background-image: url('IMAGES\\background-1815001_1920.png');
+    width: 100%;
+
+}
+
+.blue-item{
+    background-color: #0b5ac9;
+    border-radius: 10px;
+    padding: 15px 0px;
+    box-shadow: 5px 5px 3px #00000055;
+}
+.grey-item{
+    margin: 1px;
+    border-radius: 10px;
+    background-color: rgb(221, 215, 215);
+    transform: translate(-20px, 0px);
+    padding: 25px 5px;
+    box-shadow: 5px 5px 3px #00000055;
+}
+.bg-btn{
+    padding: 5px 180px 5px 180px;
+    border-radius: 5px;
+    color: white;
+}
+.cards{
+    margin: 40px;
+}
+
+.orange-cart-btn{
+    color: white;
+    background-color: orangered;
+    padding: 2px;
+    text-align: center;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+}
+.card-link{
+    text-align: center;
+    color: #0b5ac9;
+}
+.small-img{
+    width: 90%;
+}
+
+.card-text>p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-text{
+    margin: 10px 0px 10px 15px;
+}
+.bg-buttons{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 10px;;
+}
+.cards{
+    margin: 40px;
+}
+@media only screen and (max-width: 800px) {
+    .tab-col {
+        display: none;
+    }
+    .footer-row {
+        display: flex;
+        max-height: 50%;
+        justify-content: space-around;
+        flex-flow: column wrap;
+        align-content: start;
+    }
+    .footer-row>div {
+        width: 40%;
+    }
+    .hide-in-small-screen {
+        display: none;
+    }
+    .diy{
+        width: 70%;
+        height: 50%;
+    }
+   
+}
